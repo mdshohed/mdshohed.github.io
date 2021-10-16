@@ -26,6 +26,7 @@ body {
 }
 .max-width .my-content .text-1 {
 	font-size: 27px;
+	color: rgb(124, 124, 124);
 }
 .max-width .my-content .text-2 {
 	font-size: 60px;
