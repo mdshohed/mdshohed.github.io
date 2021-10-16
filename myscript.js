@@ -16,7 +16,7 @@ function getRandomColor() {
 
 function changeColor() {
   colorInput = getRandomColor();
-  header.style.background = colorInput;
+  //header.style.background = colorInput;
 }
 setInterval("changeColor()",300);
 
