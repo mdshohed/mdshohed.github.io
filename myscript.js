@@ -21,7 +21,7 @@ function changeColor() {
 setInterval("changeColor()",300);
 
 var typed = new Typed(".typed", {
-  strings: ["It's Shohedul Islam"],
+  strings: ["This is Shohedul Islam"],
   typeSpeed: 100, 
   backSpeed: 60, 
   loop: true 
