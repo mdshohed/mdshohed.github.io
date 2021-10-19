@@ -21,7 +21,7 @@ function changeColor() {
 setInterval("changeColor()",300);
 
 var typed = new Typed(".typed", {
-  strings: ["This is Shohedul Islam"],
+  strings: ["It's Shohedul Islam"],
   typeSpeed: 100, 
   backSpeed: 60, 
   loop: true 
@@ -29,18 +29,18 @@ var typed = new Typed(".typed", {
 var typed = new Typed(".typed2",{
   strings: ["Competitive Programmer"],
   typeSpeed: 100, 
-  backSpeed: 60, 
+  backSpeed: 100, 
   loop: true 
 }); 
 var typed = new Typed(".typed3",{
   strings: ["CS Student"],
   typeSpeed: 100, 
-  backSpeed: 60, 
+  backSpeed: 100, 
   loop: true 
 }); 
 var typed = new Typed(".typed4",{
-  strings: [" |"],
+  strings: ["|"],
   typeSpeed: 100, 
   backSpeed: 60, 
   loop: true 
-}); 
+});  
