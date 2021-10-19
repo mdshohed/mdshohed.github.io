@@ -38,3 +38,9 @@ var typed = new Typed(".typed3",{
   backSpeed: 60, 
   loop: true 
 }); 
+var typed = new Typed(".typed4",{
+  strings: [" |"],
+  typeSpeed: 100, 
+  backSpeed: 60, 
+  loop: true 
+}); 
