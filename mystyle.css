@@ -7,7 +7,7 @@
 }
 body {
 	background-color: #111;
-} 
+}
 .max-width {
 	max-width: 1300px;
 	pad: 0 80px;
@@ -17,9 +17,9 @@ body {
 	display: flex;
 	height: 100vh;
 	color: #111;
-	min-height: 500px;
+	min-height: 50%;
 	font-family: "ubuntu", sans-serif;
-	/* position: absolute; */
+	position: fixed;
 }
 .myDetails .max-width {
 	margin: auto 0 auto 300px;
@@ -28,13 +28,30 @@ body {
 	font-size: 27px;
 	color: rgb(124, 124, 124);
 }
+.max-width .my-content .text-1:hover {
+	font-size: 27px;
+	color: rgb(189, 179, 179);
+}
 .max-width .my-content .text-2 {
 	font-size: 60px;
 	font-weight: 600;
-	color: #144e36;
+	color: #005252;
+}
+.max-width .my-content .text-2:hover {
+	font-size: 60px;
+	font-weight: 600;
+	color: #016a6a;
 }
 .max-width .my-content .text-3 {
 	font-size: 40px;
 	margin: 5px 0;
+	color: #a91430;
+}
+
+.max-width .my-content .text-3:hover {
+	font-size: 40px;
+	margin: 5px 0;
 	color: crimson;
 }
+
+/* 016a6a */
