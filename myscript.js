@@ -7,7 +7,7 @@ function getRandomColor() {
   //   color += letters[Math.floor(Math.random() * 16)];
   // }
   // return color;
-  string = ["black"]; 
+  string = ["#424242","#adadad"]; 
   if (cnt>100000000) cnt = 0; 
   var a = cnt%1; 
   cnt++; 
@@ -16,31 +16,19 @@ function getRandomColor() {
 
 function changeColor() {
   colorInput = getRandomColor();
-  //header.style.background = colorInput;
+  // header.style.background = colorInput;
 }
 setInterval("changeColor()",300);
 
 var typed = new Typed(".typed", {
   strings: ["It's Shohedul Islam"],
   typeSpeed: 100, 
-  backSpeed: 60, 
+  backSpeed: 100, 
   loop: true 
 }); 
 var typed = new Typed(".typed2",{
-  strings: ["Competitive Programmer"],
+  strings: ["Competitive Programmer","Web Developer","CS Student"],
   typeSpeed: 100, 
-  backSpeed: 100, 
+  backSpeed: 10, 
   loop: true 
 }); 
-var typed = new Typed(".typed3",{
-  strings: ["CS Student"],
-  typeSpeed: 100, 
-  backSpeed: 100, 
-  loop: true 
-}); 
-var typed = new Typed(".typed4",{
-  strings: ["|"],
-  typeSpeed: 100, 
-  backSpeed: 60, 
-  loop: true 
-});  
