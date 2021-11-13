@@ -54,4 +54,23 @@ body {
 	color: crimson;
 }
 
+.typed {
+	color: #005252;
+}
 /* 016a6a */
+nav {
+	/* text-align: center; */
+	padding: 10px;
+	margin: 10px;
+}
+.navItem {
+	color: #111;
+	font-family: "ubuntu", sans-serif;
+	padding: 10px;
+}
+.navItem:hover {
+	color: crimson;
+	font-family: "ubuntu", sans-serif;
+	background-color: #005252;
+	border-radius: 5%;
+}

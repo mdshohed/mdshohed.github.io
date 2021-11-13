@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: rgb(119, 116, 116);
+	background-color: #111;
+	font-family: "ubuntu", sans-serif;
+}
+table {
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+td,
+th {
+	border: 1px solid #861b1b;
+	padding: 8px;
+	text-align: center;
+}
+th {
+	background-color: #78a7ec;
+}
+
+tr:nth-child(even) {
+	background-color: #111;
+}
