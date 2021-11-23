@@ -21,3 +21,6 @@ ul li:hover {
 	background-color: darkcyan;
 	border-radius: 5%;
 }
+a:link {
+	text-decoration: initial;
+}
