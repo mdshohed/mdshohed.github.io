@@ -10,12 +10,12 @@ body {
 }
 .max-width {
 	max-width: 1300px;
-	pad: 0 80px;
+	padding: 0 80px;
 	margin: auto;
 }
 .myDetails {
 	display: flex;
-	height: 100vh;
+	height: 100vh - 10px;
 	color: #111;
 	min-height: 50%;
 	font-family: "ubuntu", sans-serif;
