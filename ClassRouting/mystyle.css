@@ -1,8 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-* {
+/* * {
 	margin: 0;
 	padding: 0;
+} */
+.top {
+	margin: 0 5%;
 }
+.title {
+	background-image: linear-gradient(crimson, black);
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.title:hover {
+	background-image: linear-gradient(crimson, rgb(27, 26, 26));
+}
+.RoutingTable {
+	display: block;
+	margin-top: -7px;
+}
+
 /* body {
 	color: rgb(119, 116, 116);
 	background-color: #111;

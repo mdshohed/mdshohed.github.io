@@ -11,6 +11,9 @@ body {
 	color: #fff;
 	font-size: large;
 }
+.top {
+	margin: 0 10%;
+}
 ul li {
 	color: darkgray;
 	margin: 10px;
