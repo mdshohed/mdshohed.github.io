@@ -10,7 +10,8 @@
 	background-image: linear-gradient(crimson, black);
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding: 10px;
+	font-size: large;
 }
 .title:hover {
 	background-image: linear-gradient(crimson, rgb(27, 26, 26));
