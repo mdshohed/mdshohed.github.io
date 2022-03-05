@@ -20,28 +20,3 @@
 	display: block;
 	margin-top: -7px;
 }
-
-/* body {
-	color: rgb(119, 116, 116);
-	background-color: #111;
-	font-family: "ubuntu", sans-serif;
-}
-table {
-	text-align: center;
-	border-collapse: collapse;
-	width: 100%;
-}
-td,
-th {
-	border: 1px solid #861b1b;
-	padding: 8px;
-	text-align: center;
-}
-th {
-	background-color: #78a7ec;
-	color: #111;
-}
-
-tr:nth-child(even) {
-	background-color: #111;
-} */

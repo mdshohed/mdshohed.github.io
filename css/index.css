@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.slideshow-container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 100px);
+	background-color: rgb(241, 235, 235);
+}
+.slideshow-elements{
+	position: fixed;
+}
+.skills{
+	color: crimson;
+	font-size: 2rem;
+}
+.typed {
+	color: #005252;
+}
