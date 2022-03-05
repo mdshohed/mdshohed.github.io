@@ -12,13 +12,15 @@
 	justify-content: center;
 	height: calc(100vh - 100px);
 	background-color: rgb(241, 235, 235);
+	/* position: fixed; */
 }
 .slideshow-elements{
 	position: fixed;
 }
 .skills{
-	color: crimson;
-	font-size: 2rem;
+	color: #a91430;
+	font-size: 35px;
+	font-weight: 400;
 }
 .typed {
 	color: #005252;
